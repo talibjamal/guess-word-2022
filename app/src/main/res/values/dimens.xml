@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="splash_img_h_w">300dp</dimen>
+    <dimen name="splash_text_s">16dp</dimen>
+    <dimen name="main_text_s">20dp</dimen>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GuessWord</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="text_guess_the_word">Guess The Word!</string>
+    <string name="text_check">Check</string>
+    <string name="text_guess_the_word_in_six">Guess The Word In Six Attempts</string>
+    <string name="text_loading_dic">Please wait!\nLoading...</string>
+    <string name="text_enter_your_guess">Please wait enter your guess</string>
+    <string name="text_enter_five_chars">Please wait 5 characters words</string>
+
+
+    <string name="hint_enter_guess_word">Enter your guess word...</string>
+
+</resources>

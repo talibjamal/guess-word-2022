@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activities.SplashActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_guess_the_word_in_six"
+        android:textColor="@color/black"
+        android:textSize="@dimen/splash_text_s"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:hint="@string/hint_enter_guess_word"
+        android:background="@color/field_bg"
+        android:maxLength="5"
+        android:textSize="@dimen/main_text_s"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_check"
+        android:textColor="@color/black"
+        android:textSize="@dimen/splash_text_s"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none" />
+
+
+
+</LinearLayout>
